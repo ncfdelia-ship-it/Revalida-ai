@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { casos } from "@/lib/casos";
+import { casos } from "@/lib/casos2";
 
 export default function Paciente() {
   const caso = casos[0];
