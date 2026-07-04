@@ -3,12 +3,12 @@ import { NextResponse } from "next/server";
 export async function POST(req: Request) {
   const { mensagem } = await req.json();
 
-  // versão simples (mock IA por enquanto)
   const respostas = [
     "Entendo doutor... isso começou há alguns dias.",
-    "Sim, também sinto cansaço junto.",
-    "Não sei dizer exatamente quando começou.",
-    "A dor piora quando me movimento."
+    "Sim, isso piora quando faço esforço.",
+    "Não, nunca tive algo assim antes.",
+    "Agora que você pergunta, também sinto isso.",
+    "A dor é mais forte à noite."
   ];
 
   const resposta =
